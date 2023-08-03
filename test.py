@@ -8,7 +8,7 @@ import pickle
 df = pd.read_csv('CAR_DETAILS.csv')
 
 # Load the pipeline
-with open('car_pipeline.pkl', 'rb') as file:
+with open('CAR DETAILS.pkl', 'rb') as file:
     pipeline = pickle.load(file)
 
 def filter_cars_by_company(selected_company, df):
