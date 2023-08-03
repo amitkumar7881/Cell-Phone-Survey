@@ -5,7 +5,7 @@ import pickle
 
 
 # Load dataset
-df = pd.read_csv('car_newdata.csv')
+df = pd.read_csv('CAR_DETAILS.csv')
 
 # Load the pipeline
 with open('car_pipeline.pkl', 'rb') as file:
